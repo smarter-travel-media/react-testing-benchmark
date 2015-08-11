@@ -24,14 +24,14 @@ unit tests between jest and mocha.
  }
  ```
 
- ###Mocha Setup
+###Mocha Setup
  This is a standard setup using chai for assertions and jsdom to moch the dom.
 
  ```
  mocha --compilers js:babel/register
  ```
 
- ##Usage
+##Usage
  To run the jest tests
  ```bash
  #jest tests
