@@ -38,5 +38,5 @@ unit tests between jest and mocha.
  npm run jest
 
  #mocha tests
- npm run mocha 
+ npm run mocha
  ```
