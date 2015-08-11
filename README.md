@@ -32,7 +32,7 @@ unit tests between jest and mocha.
  ```
 
 ##Usage
- To run the jest tests
+ To run the tests
  ```bash
  #jest tests
  npm run jest
