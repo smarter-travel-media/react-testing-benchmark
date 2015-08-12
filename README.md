@@ -13,15 +13,18 @@ See package.json for version information.
 
  ```
  "jest": {
-   "scriptPreprocessor": "node_modules/babel-jest",
-   "testFileExtensions": [
-     "js",
-     "jsx"
-   ],
-   "moduleFileExtensions": [
-     "js",
-     "jsx"
-   ]
+    "scriptPreprocessor": "node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "node_modules/react"
+    ],
+    "testFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ]
  }
  ```
 
