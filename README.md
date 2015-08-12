@@ -5,7 +5,7 @@ This is a sample project to benchmark the performance differences between runnin
 unit tests between jest and mocha.
 
 ##System Setup
-Jest is not compatible with node: https://github.com/facebook/jest/issues/243
+Jest is not compatible with node 0.12: https://github.com/facebook/jest/issues/243
 See package.json for version information.
 
 ###Jest Setup
